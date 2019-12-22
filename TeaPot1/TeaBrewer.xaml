@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cui:IndexPage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:cui="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+                x:Class="TeaPot1.TeaBrewer"
+                x:Name="index_Page">
+    
+    <ContentPage x:Name="InfoPage"
+                 >
+                 
+        <StackLayout HorizontalOptions="Center" VerticalOptions="FillAndExpand" Spacing="0" >
+            
+            <Label x:Name="heartRateLabel"
+                   Text="Heart rate:"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"
+                   TextColor="White" 
+                   />
+            
+            <Label x:Name="heartRateTb"
+                   Text="0"
+                   VerticalOptions="Start"
+                   HorizontalOptions="End"
+                   TextColor="White"
+                    />
+            <Label x:Name="sleepStatusLabel"
+                   Text="Sleep Status: "
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   TextColor="White"
+                   />
+            <Label x:Name="sleepStatusTB"
+                   Text="Awake"
+                   VerticalOptions="Center"
+                   HorizontalOptions="End"
+                   TextColor="White"
+                   />
+            <Label x:Name="TemperatureSensorLabel"
+                   Text="Temperature: "
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   TextColor="White"
+                   />
+            <Label x:Name="TemperatureSensorTb"
+                   Text="70"
+                   VerticalOptions="Center"
+                   HorizontalOptions="End"
+                   TextColor="White"
+                   />
+     
+            <Button x:Name="RecommendTeaButton"
+                    Text="Recommend Tea!"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Clicked="RecommendTea_Clicked" 
+                    BackgroundColor="Beige"
+                    BorderColor="SaddleBrown"
+                    TextColor="Chocolate"
+                    
+                    />
+            
+        </StackLayout>
+ 
+    </ContentPage>
+
+    <ContentPage x:Name="BrewPage"
+                 BackgroundImage="TeaLeaves.png"
+                 IsVisible="False">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            
+            <Label x:Name="TeaSuggestionLabel"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Text="Tea Suggestion:"
+                   />
+            <Label x:Name="TeaSuggestionTb"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"
+                   Text="  "
+                   />
+            <Button x:Name="ConnectBrewer"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Text="Connect Brewer"
+                   IsEnabled="True"
+                    Clicked="ConnectBrewer_Clicked"
+                    />
+                    
+            <Button x:Name="BrewButton"
+                    Text="BREW!"
+                    VerticalOptions="End"
+                    HorizontalOptions="Center"
+                    Clicked="BrewButton_Clicked"
+                    IsVisible="False"
+                    />
+
+        </StackLayout>
+    </ContentPage>
+    <ContentPage x:Name="ConfirmationPage "
+                 IsVisible="False"
+                                    >
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label x:Name="TextLabel"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Text= "   Please insert the recommended tea leaves in your Smart Tea Pot and confirm when you're ready!"
+                   FontSize="Small"
+                   TextColor="SaddleBrown"
+                           />
+            <Button x:Name="ConfirmButton"
+                            VerticalOptions="End"
+                            HorizontalOptions="Center"
+                            Clicked="ConfirmButton_Clicked"
+                            Text="Confirm"    />
+        </StackLayout>
+
+    </ContentPage>
+                 
+                 
+       
+       
+</cui:IndexPage>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cui:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:cui="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+                x:Class="TeaPot1.SleepSensor">
+    <cui:CirclePage.Content>
+        <AbsoluteLayout>
+            <Image AbsoluteLayout.LayoutFlags="All"
+                   AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                   Source="TeaImage.png" />
+
+            <Image x:Name="measuringIndicator"
+                   AbsoluteLayout.LayoutFlags="None"
+                   AbsoluteLayout.LayoutBounds="155, 64, 50, 44"
+                   Source="heart.png"
+                   IsVisible="False" />
+
+            <Label x:Name="sleepStateLabel"
+                   TextColor="#454545"
+                   FontSize="8"
+                   AbsoluteLayout.LayoutFlags="None"
+                   HorizontalTextAlignment="Center"
+                   AbsoluteLayout.LayoutBounds="2,180,180,30"
+                   Text="Sleep State:" />
+
+            <Label x:Name="sleepStateTb"
+                   TextColor="#454545"
+                   AbsoluteLayout.LayoutFlags="None"
+                   HorizontalTextAlignment="Center"
+                   AbsoluteLayout.LayoutBounds="160,180,180,30"        
+                   Text="Unknown"   />
+        </AbsoluteLayout>
+    </cui:CirclePage.Content>
+    <cui:CirclePage.ActionButton>
+        <cui:ActionButtonItem Text="MEASURE"
+                                  x:Name="actionButton"
+                               Clicked="OnActionButtonClicked" />
+    </cui:CirclePage.ActionButton>
+
+</cui:CirclePage>

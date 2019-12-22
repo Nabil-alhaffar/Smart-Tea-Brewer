@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nabilhaffar/Downloads/Nabil Alhaffar Co-op projects/Smart Tea project/TeaPot1/TeaPot1.csproj": {}
+  },
+  "projects": {
+    "/Users/nabilhaffar/Downloads/Nabil Alhaffar Co-op projects/Smart Tea project/TeaPot1/TeaPot1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nabilhaffar/Downloads/Nabil Alhaffar Co-op projects/Smart Tea project/TeaPot1/TeaPot1.csproj",
+        "projectName": "TeaPot1",
+        "projectPath": "/Users/nabilhaffar/Downloads/Nabil Alhaffar Co-op projects/Smart Tea project/TeaPot1/TeaPot1.csproj",
+        "packagesPath": "/Users/nabilhaffar/.nuget/packages/",
+        "outputPath": "/Users/nabilhaffar/Downloads/Nabil Alhaffar Co-op projects/Smart Tea project/TeaPot1/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nabilhaffar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "tizen40"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "tizen40": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "tizen40": {
+          "dependencies": {
+            "Tizen.NET": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0.14562, )"
+            },
+            "Tizen.NET.Sdk": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Tizen.Wearable.CircularUI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.2.0.871581, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

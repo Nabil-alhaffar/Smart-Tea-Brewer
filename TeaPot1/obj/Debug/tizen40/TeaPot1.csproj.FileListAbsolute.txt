@@ -1,0 +1,17 @@
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\mainPage.xaml.g.cs
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\TeaPot1.csproj.CoreCompileInputs.cache
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\TeaPot1.AssemblyInfoInputs.cache
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\TeaPot1.AssemblyInfo.cs
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen40\TeaPot1.deps.json
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen40\TeaPot1.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen40\TeaPot1.pdb
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\XamlC.stamp
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\TeaPot1.dll
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\TeaPot1.pdb
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\SettingsPage.xaml.g.cs
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\HeartRateSensor.xaml.g.cs
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\Components\CircleDateTimeList.xaml.g.cs
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\Components\CircleDateTime\CircleTime.xaml.g.cs
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\SleepSensor.xaml.g.cs
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\TeaBrewer.xaml.g.cs
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen40\TeaPot1.csprojAssemblyReference.cache

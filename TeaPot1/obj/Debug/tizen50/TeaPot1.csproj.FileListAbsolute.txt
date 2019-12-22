@@ -1,0 +1,11 @@
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen50\mainPage.xaml.g.cs
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen50\TeaPot1.csproj.CoreCompileInputs.cache
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen50\TeaPot1.AssemblyInfoInputs.cache
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen50\TeaPot1.AssemblyInfo.cs
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\TeaPot1.deps.json
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\TeaPot1.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\TeaPot1.pdb
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen50\XamlC.stamp
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen50\TeaPot1.dll
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen50\TeaPot1.pdb
+C:\Users\240028730\source\repos\TeaPot1\obj\Debug\tizen50\TeaPot1.csprojAssemblyReference.cache

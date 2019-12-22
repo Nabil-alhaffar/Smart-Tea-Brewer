@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/nabilhaffar/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/nabilhaffar/.nuget/packages/;/usr/local/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.3.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)tizen.net/5.0.0.14562/build/tizen40/Tizen.NET.props" Condition="Exists('$(NuGetPackageRoot)tizen.net/5.0.0.14562/build/tizen40/Tizen.NET.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms/3.2.0.871581/build/netstandard2.0/Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/3.2.0.871581/build/netstandard2.0/Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)tizen.net.sdk/1.0.1/build/Tizen.NET.Sdk.props" Condition="Exists('$(NuGetPackageRoot)tizen.net.sdk/1.0.1/build/Tizen.NET.Sdk.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgTizen_NET_Sdk Condition=" '$(PkgTizen_NET_Sdk)' == '' ">/Users/nabilhaffar/.nuget/packages/tizen.net.sdk/1.0.1</PkgTizen_NET_Sdk>
+  </PropertyGroup>
+</Project>

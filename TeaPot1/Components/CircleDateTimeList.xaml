@@ -1,0 +1,25 @@
+﻿<w:CirclePage
+
+    x:Class="TeaPot1.Components.CircleDateTimeList"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TeaPot1"
+    xmlns:w="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+    NavigationPage.HasNavigationBar="False"
+    RotaryFocusObject="{x:Reference dateTimeList}">
+    <w:CirclePage.BindingContext>
+        <local:AppViewModel />
+    </w:CirclePage.BindingContext>
+    <w:CirclePage.Content>
+        <w:CircleListView
+            x:Name="dateTimeList"
+            ItemTapped="OnItemTapped"
+            ItemsSource="{Binding DateTimeSamples}">
+            <w:CircleListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Title}" />
+                </DataTemplate>
+            </w:CircleListView.ItemTemplate>
+        </w:CircleListView>
+    </w:CirclePage.Content>
+</w:CirclePage>

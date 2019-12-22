@@ -1,0 +1,14 @@
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\bin\Tizen.Wearable.CircularUI.Forms.Renderer.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\bin\Tizen.Wearable.CircularUI.Forms.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\bin\Xamarin.Forms.Core.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\bin\Xamarin.Forms.Platform.Tizen.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\bin\Xamarin.Forms.Platform.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\bin\Xamarin.Forms.Xaml.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\bin\TeaPot1.dll
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\bin\TeaPot1.pdb
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\res\background.png
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\res\heart.png
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\shared\res\Pulsometer.png
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\shared\res\TeaPot1.png
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\tpkroot\tizen-manifest.xml
+C:\Users\240028730\source\repos\TeaPot1\bin\Debug\tizen50\org.tizen.example.TeaPot1-1.0.0.tpk

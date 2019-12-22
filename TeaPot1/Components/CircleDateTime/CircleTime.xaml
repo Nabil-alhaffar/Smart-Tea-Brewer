@@ -1,0 +1,46 @@
+﻿<w:CirclePage
+    x:Class="TeaPot1.Components.CircleDateTime.CircleTime"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TeaPot1.Components.CircleDateTime"
+    xmlns:w="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+    RotaryFocusObject="{x:Reference timeSelector}">
+    <w:CirclePage.BindingContext>
+        <local:DateTimeViewModel />
+    </w:CirclePage.BindingContext>
+    <w:CirclePage.Content>
+        <AbsoluteLayout
+             BackgroundColor="Transparent"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <Image AbsoluteLayout.LayoutFlags="All"
+                   AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                   Source="TeaImage.png" />
+            <Label
+                x:Name="TeaTimerheader"
+                Text="Set your tea timer:"
+                FontSize="8"                
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                AbsoluteLayout.LayoutBounds="10,120,280,40"
+                AbsoluteLayout.LayoutFlags="None"
+                TextColor="Turquoise"
+                />
+            <w:CircleDateTimeSelector
+                x:Name="timeSelector"
+                DateTime="{Binding Datetime, Mode=TwoWay}"
+                MaximumDate="1/1/2022"
+                MinimumDate="1/12/2010"
+                ValueType="Time" 
+                AbsoluteLayout.LayoutBounds="0,150,360,179"
+                AbsoluteLayout.LayoutFlags="None"
+                BackgroundColor="BurlyWood"
+                MarkerColor="HotPink"
+/>
+            
+        </AbsoluteLayout>
+    </w:CirclePage.Content>
+    <w:CirclePage.ActionButton>
+        <w:ActionButtonItem Command="{Binding ButtonPressedExit}" Text="OK" />
+    </w:CirclePage.ActionButton>
+</w:CirclePage>
